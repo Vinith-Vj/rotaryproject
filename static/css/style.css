@@ -8427,8 +8427,10 @@ h1, h2, h3, h4, h5,
     height: 400px; } }
 
 .icon-video {
-  width: 80px;
-  height: 80px;
+  /* width: 80px;
+  height: 80px; */
+  width: 60px;
+  height: 60px;
   background: #FFBF00;
   -webkit-animation: pulse 2s infinite;
   animation: pulse 2s infinite;
@@ -8899,7 +8901,7 @@ textarea.form-control {
 .blog-img,
 .user-img {
   width: 100%;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center; }
 
