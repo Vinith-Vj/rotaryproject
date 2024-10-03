@@ -8901,9 +8901,13 @@ textarea.form-control {
 .blog-img,
 .user-img {
   width: 100%;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+
+  .container .img {
+    background-size: contain;
+  }
 
 .testimony-section {
   position: relative; }
