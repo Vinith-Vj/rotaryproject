@@ -1324,6 +1324,12 @@ pre {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
+.col-md-6.ftco-animate {
+  flex: none;
+  max-width: none;
+  padding-top: 71px;
+}
+
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -8234,7 +8240,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    opacity: .5;
+    opacity: .3;
     background: #000000; }
   .hero-wrap.hero-wrap-2 {
     height: 600px; }
