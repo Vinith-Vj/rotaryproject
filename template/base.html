@@ -38,7 +38,7 @@
 	  <nav class="navbar px-md-0 navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container-fluid px-md-5" id="logo">
           <div id="logoLogo">  
-          <img src="{% static 'images/thangy_logo.png' %}" alt="LOGO" width="50px">  
+          <img src="{% static 'images/thangy_logo.png' %}" alt="LOGO" width="60px">  
 	      <a class="navbar-brand" href="{% url 'rotaryapp:home' %}">Rotary Club <span>Tangasseri</span></a>
           </div>
 		  <!-- <a class="navbar-brand" href="index.html"><img src="{% static 'images/thangy_logo.png' %}" alt="LOGO" width="80px"></a> -->
@@ -57,10 +57,13 @@
 	          <li class="nav-item"><a href="{% url 'rotaryapp:contact' %}" class="nav-link">Contact</a></li>
 	        </ul>
             <ul class="navbar-nav ml-auto navBtns">
-              <li><img  src="{% static 'images/rotary1.png' %}" alt="LOGO" width="100px"></li>
+              <li><img  src="{% static 'images/rotary1.png' %}" alt="LOGO" width="100px" style="
+    padding-top: .3rem;"></li>
               <li><img src="{% static 'images/T2425EN-Logo-CMYK.png' %}" alt="LOGO" width="80px"></li>
-              <li><a href="#" style="font-size: 15px; font-weight: 600;">RID: 3211 ZONE 18</a></li>
-              <li><a href="{% url 'rotaryapp:joinus' %}" id="join" >Join Us</a></li>
+              <li style="
+    padding-top: .7rem;"><a href="#" style="font-size: 15px; font-weight: 600;">RID: 3211 ZONE 18</a></li>
+              <li style="
+    padding-top: .5rem;"><a href="{% url 'rotaryapp:joinus' %}" id="join" >Join Us</a></li>
             </ul>
 	      </div>
 	    </div>

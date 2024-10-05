@@ -8215,7 +8215,7 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Poppins", Arial, sans-serif;
   line-height: 1;
   text-transform: uppercase; }
@@ -8682,6 +8682,10 @@ h1, h2, h3, h4, h5,
   .form-control:focus, .form-control:active {
     border-color: #000000; }
 
+.ftco-consultation .content .form-group input {
+  color: black !important;
+}
+
 textarea.form-control {
   height: inherit !important; }
 
@@ -8911,9 +8915,19 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center; }
 
+.container .img {
+  height: 550px;
+  width: 750px;
+  margin-top: 125px;
+  background-size: contain;
+}
+
+@media (max-width: 760px) {
   .container .img {
-    background-size: contain;
+    margin-top: 0px;
+    height: 380px;
   }
+}
 
 .testimony-section {
   position: relative; }
@@ -9853,4 +9867,15 @@ background-position:50% 50%;
 background-size: cover;
 background-repeat: no-repeat;
 
+}
+
+
+@media (max-width: 960px) {
+  #logoLogo img {
+    width: 50px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
 }
